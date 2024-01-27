@@ -1,1 +1,3 @@
-# edgecache-cli
+# edgecache
+
+`npm install edgecache -g`

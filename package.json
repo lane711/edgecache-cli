@@ -9,7 +9,11 @@
   "bin": {
     "edgecache": "index.js"
   },
+  "type": "module" ,
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^3.3.0"
+  }
 }

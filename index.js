@@ -1,3 +1,7 @@
 #!/usr/bin/env node
 
-console.log('hello edge cache')
+import { input } from '@inquirer/prompts';
+
+const answer = await input({ message: 'Enter your name' });
+
+console.log('Hi ' + answer)
